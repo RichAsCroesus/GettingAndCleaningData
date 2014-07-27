@@ -1,0 +1,287 @@
+---
+title: "Code book for Getting and Cleaning Data Project"
+output: html_document
+---
+
+## Overview
+The data was collect from participents smart phones. Thirty volunteers ages 19-48 were used to collect various information using the accelerometer and gryoscope in their phones. Certain summary data means and standard deviations for each activity and individual has been further summerized. There were multiple data points for each activity and individual pair; we have taken the average of these samples. 
+More information about the study can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+## Variarble description
+
+###  subjectId
+     The data were collected from 30 individuals each individual is identified only by an integer in the range 1 to 30 
+
+### activity
+    The name and discription of the activity being monitored
+         walking
+         walking upstairs
+         walking downstairs
+         sitting
+         standing
+         laying
+
+### activityIndex
+       Integer from 1 to 6 mapping to the names in the activity data item 
+
+
+There were 89 summary variables in the final data table. They are described below
+
+
+#### AVG timeBodyAccmeanX
+  -
+
+#### AVG timeBodyAccmeanY
+  -
+
+#### AVG timeBodyAccmeanZ
+  -
+
+#### AVG timeBodyAccstdX
+  -
+
+#### AVG timeBodyAccstdY
+  -
+
+#### AVG timeBodyAccstdZ
+  -
+
+#### AVG timeGravityAccmeanX
+  -
+
+#### AVG timeGravityAccmeanY
+  -
+
+#### AVG timeGravityAccmeanZ
+  -
+
+#### AVG timeGravityAccstdX
+  -
+
+#### AVG timeGravityAccstdY
+  -
+
+#### AVG timeGravityAccstdZ
+  -
+
+#### AVG timeBodyAccJerkmeanX
+  -
+
+#### AVG timeBodyAccJerkmeanY
+  -
+
+#### AVG timeBodyAccJerkmeanZ
+  -
+
+#### AVG timeBodyAccJerkstdX
+  -
+
+#### AVG timeBodyAccJerkstdY
+  -
+
+#### AVG timeBodyAccJerkstdZ
+  -
+
+#### AVG timeBodyGyromeanX
+  -
+
+#### AVG timeBodyGyromeanY
+  -
+
+#### AVG timeBodyGyromeanZ
+  -
+
+#### AVG timeBodyGyrostdX
+  -
+
+#### AVG timeBodyGyrostdY
+  -
+
+#### AVG timeBodyGyrostdZ
+  -
+
+#### AVG timeBodyGyroJerkmeanX
+  -
+
+#### AVG timeBodyGyroJerkmeanY
+  -
+
+#### AVG timeBodyGyroJerkmeanZ
+  -
+
+#### AVG timeBodyGyroJerkstdX
+  -
+
+#### AVG timeBodyGyroJerkstdY
+  -
+
+#### AVG timeBodyGyroJerkstdZ
+  -
+
+#### AVG timeBodyAccMagmean
+  -
+
+#### AVG timeBodyAccMagstd
+  -
+
+#### AVG timeGravityAccMagmean
+  -
+
+#### AVG timeGravityAccMagstd
+  -
+
+#### AVG timeBodyAccJerkMagmean
+  -
+
+#### AVG timeBodyAccJerkMagstd
+  -
+
+#### AVG timeBodyGyroMagmean
+  -
+
+#### AVG timeBodyGyroMagstd
+  -
+
+#### AVG timeBodyGyroJerkMagmean
+  -
+
+#### AVG timeBodyGyroJerkMagstd
+  -
+
+#### AVG freqBodyAccmeanX
+  -
+
+#### AVG freqBodyAccmeanY
+  -
+
+#### AVG freqBodyAccmeanZ
+  -
+
+#### AVG freqBodyAccstdX
+  -
+
+#### AVG freqBodyAccstdY
+  -
+
+#### AVG freqBodyAccstdZ
+  -
+
+#### AVG freqBodyAccmeanFreqX
+  -
+
+#### AVG freqBodyAccmeanFreqY
+  -
+
+#### AVG freqBodyAccmeanFreqZ
+  -
+
+#### AVG freqBodyAccJerkmeanX
+  -
+
+#### AVG freqBodyAccJerkmeanY
+  -
+
+#### AVG freqBodyAccJerkmeanZ
+  -
+
+#### AVG freqBodyAccJerkstdX
+  -
+
+#### AVG freqBodyAccJerkstdY
+  -
+
+#### AVG freqBodyAccJerkstdZ
+  -
+
+#### AVG freqBodyAccJerkmeanFreqX
+  -
+
+#### AVG freqBodyAccJerkmeanFreqY
+  -
+
+#### AVG freqBodyAccJerkmeanFreqZ
+  -
+
+#### AVG freqBodyGyromeanX
+  -
+
+#### AVG freqBodyGyromeanY
+  -
+
+#### AVG freqBodyGyromeanZ
+  -
+
+#### AVG freqBodyGyrostdX
+  -
+
+#### AVG freqBodyGyrostdY
+  -
+
+#### AVG freqBodyGyrostdZ
+  -
+
+#### AVG freqBodyGyromeanFreqX
+  -
+
+#### AVG freqBodyGyromeanFreqY
+  -
+
+#### AVG freqBodyGyromeanFreqZ
+  -
+
+#### AVG freqBodyAccMagmean
+  -
+
+#### AVG freqBodyAccMagstd
+  -
+
+#### AVG freqBodyAccMagmeanFreq
+  -
+
+#### AVG freqBodyBodyAccJerkMagmean
+  -
+
+#### AVG freqBodyBodyAccJerkMagstd
+  -
+
+#### AVG freqBodyBodyAccJerkMagmeanFreq
+  -
+
+#### AVG freqBodyBodyGyroMagmean
+  -
+
+#### AVG freqBodyBodyGyroMagstd
+  -
+
+#### AVG freqBodyBodyGyroMagmeanFreq
+  -
+
+#### AVG freqBodyBodyGyroJerkMagmean
+  -
+
+#### AVG freqBodyBodyGyroJerkMagstd
+  -
+
+#### AVG freqBodyBodyGyroJerkMagmeanFreq
+  -
+
+#### AVG angletimeBodyAccMeangravity
+  -
+
+#### AVG angletimeBodyAccJerkMeangravityMean
+  -
+
+#### AVG angletimeBodyGyroMeangravityMean
+  -
+
+#### AVG angletimeBodyGyroJerkMeangravityMean
+  -
+
+#### AVG angleXgravityMean
+  -
+
+#### AVG angleYgravityMean
+  -
+
+#### AVG angleZgravityMean
+  -
