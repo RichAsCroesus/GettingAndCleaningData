@@ -1,10 +1,11 @@
 
-This document describes the implemenation of a data cleaning and summary R program. 
-This program run on the data that can be found at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+# This document describes the implemenation of a data cleaning and summary R program. 
+
+### This program run on the data that can be found at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 A more detail description of the data can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 
-The script must be run in a directory contains the follows file and directory from the dataset.
+### The script must be run in a directory contains the follows file and directory from the dataset.
      - features.txt: List of all features.
      - activity_labels.txt Links the class labels with their activity name.
      - train/X_train.txt Training set.
@@ -14,7 +15,7 @@ The script must be run in a directory contains the follows file and directory fr
 
 
 
-This script will perform the following operation
+### The outline of the transformations on the data provided in the project descriptions: 
  - Merges the traing and test sets to create one data set.
  - Extracts only the measurements on the mean and standard deviation for each measurement 
  - Uses descriptive activity names to name the activities in the data set
@@ -22,13 +23,15 @@ This script will perform the following operation
  - Creates a tidy data set with the average of each variable for each activity and each subject
 
 
-The script performs the following operations:
-    - use the read table function to read "./train/X_train.txt" 
-    - use the read table function to read "./train/y_train.txt" 
-    - use the read table function to read "./test/X_test.txt" 
-    - use the read table function to read "./test/y_test.txt" 
+### The script performs the following operations:
+
+    We use the read table function to read "./train/X_train.txt" 
+    We use the read table function to read "./train/y_train.txt" 
+    We use the read table function to read "./test/X_test.txt" 
+    We use the read table function to read "./test/y_test.txt" 
 
     The X_ files are the feature data and the y_ files identify the activity.
+
     The rbind() function appends the X test to the X train data frame, and the Y data is collated similarly. 
 
     The subject identifiers are read from "./train/subject_train.txt" and "./test/subject_test.txt" respectively. 
@@ -40,7 +43,7 @@ The script performs the following operations:
     We create logical vector using grepl to identify columns with "mean" or "std" in their names; these will be the basis
     of the data in the tidy data set. 
 
-    We generate a SQL query, which will be supplies to the sqldf function to calculate the averages by subject id and activity.
+    We generate a SQL query, which will be supplied to the sqldf function to calculate the averages by subject id and activity.
 
     We fixup some of the feature names from the SQL query
 

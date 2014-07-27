@@ -26,262 +26,344 @@ More information about the study can be found at http://archive.ics.uci.edu/ml/d
 
 
 There were 89 summary variables in the final data table. They are described below
-
+The ranges of the values for all of the variables listed below have been normalized to be between -1 and 1
 
 #### AVG timeBodyAccmeanX
-  -
+  - These are the averages for the mean acceleration in the X direction for each individual and activity 
 
 #### AVG timeBodyAccmeanY
-  -
+  - These are the averages for the mean acceleration in the Y direction for each individual and activity 
 
 #### AVG timeBodyAccmeanZ
-  -
+  - These are the averages for the mean acceleration in the Z direction for each individual and activity 
 
 #### AVG timeBodyAccstdX
-  -
+  - These are the averages for the timeBodyAccstdX variable for each individual and activity 
+
 
 #### AVG timeBodyAccstdY
-  -
+  - These are the averages for the timeBodyAccstdY variable for each individual and activity 
+
 
 #### AVG timeBodyAccstdZ
-  -
+  - These are the averages for the timeBodyAccstdZ variable for each individual and activity 
+
 
 #### AVG timeGravityAccmeanX
-  -
+  - These are the averages for the timeGravityAccmeanX variable for each individual and activity 
+
 
 #### AVG timeGravityAccmeanY
-  -
+  - These are the averages for the timeGravityAccmeanY variable for each individual and activity 
+
 
 #### AVG timeGravityAccmeanZ
-  -
+  - These are the averages for the timeGravityAccmeanZ variable for each individual and activity 
+
 
 #### AVG timeGravityAccstdX
-  -
+  - These are the averages for the timeGravityAccstdX variable for each individual and activity 
+
 
 #### AVG timeGravityAccstdY
-  -
+  - These are the averages for the timeGravityAccstdY variable for each individual and activity 
+
 
 #### AVG timeGravityAccstdZ
-  -
+  - These are the averages for the timeGravityAccstdZ variable for each individual and activity 
+
 
 #### AVG timeBodyAccJerkmeanX
-  -
+  - These are the averages for the timeBodyAccJerkmeanX variable for each individual and activity 
+
 
 #### AVG timeBodyAccJerkmeanY
-  -
+  - These are the averages for the timeBodyAccJerkmeanY variable for each individual and activity 
+
 
 #### AVG timeBodyAccJerkmeanZ
-  -
+  - These are the averages for the timeBodyAccJerkmeanZ variable for each individual and activity 
+
 
 #### AVG timeBodyAccJerkstdX
-  -
+  - These are the averages for the timeBodyAccJerkstdX variable for each individual and activity 
+
 
 #### AVG timeBodyAccJerkstdY
-  -
+  - These are the averages for the timeBodyAccJerkstdY variable for each individual and activity 
+
 
 #### AVG timeBodyAccJerkstdZ
-  -
+  - These are the averages for the timeBodyAccJerkstdZ variable for each individual and activity 
+
 
 #### AVG timeBodyGyromeanX
-  -
+  - These are the averages for the timeBodyGyromeanX variable for each individual and activity 
+
 
 #### AVG timeBodyGyromeanY
-  -
+  - These are the averages for the timeBodyGyromeanY variable for each individual and activity 
+
 
 #### AVG timeBodyGyromeanZ
-  -
+  - These are the averages for the timeBodyGyromeanZ variable for each individual and activity 
+
 
 #### AVG timeBodyGyrostdX
-  -
+  - These are the averages for the timeBodyGyrostdX variable for each individual and activity 
+
 
 #### AVG timeBodyGyrostdY
-  -
+  - These are the averages for the timeBodyGyrostdY variable for each individual and activity 
+
 
 #### AVG timeBodyGyrostdZ
-  -
+  - These are the averages for the timeBodyGyrostdZ variable for each individual and activity 
+
 
 #### AVG timeBodyGyroJerkmeanX
-  -
+  - These are the averages for the timeBodyGyroJerkmeanX variable for each individual and activity 
+
 
 #### AVG timeBodyGyroJerkmeanY
-  -
+  - These are the averages for the timeBodyGyroJerkmeanY variable for each individual and activity 
+
 
 #### AVG timeBodyGyroJerkmeanZ
-  -
+  - These are the averages for the timeBodyGyroJerkmeanZ variable for each individual and activity 
+
 
 #### AVG timeBodyGyroJerkstdX
-  -
+  - These are the averages for the timeBodyGyroJerkstdX variable for each individual and activity 
+
 
 #### AVG timeBodyGyroJerkstdY
-  -
+  - These are the averages for the timeBodyGyroJerkstdY variable for each individual and activity 
+
 
 #### AVG timeBodyGyroJerkstdZ
-  -
+  - These are the averages for the timeBodyGyroJerkstdZ variable for each individual and activity 
+
 
 #### AVG timeBodyAccMagmean
-  -
+  - These are the averages for the timeBodyAccMagmean variable for each individual and activity 
+
 
 #### AVG timeBodyAccMagstd
-  -
+  - These are the averages for the timeBodyAccMagstd variable for each individual and activity 
+
 
 #### AVG timeGravityAccMagmean
-  -
+  - These are the averages for the timeGravityAccMagmean variable for each individual and activity 
+
 
 #### AVG timeGravityAccMagstd
-  -
+  - These are the averages for the timeGravityAccMagstd variable for each individual and activity 
+
 
 #### AVG timeBodyAccJerkMagmean
-  -
+  - These are the averages for the timeBodyAccJerkMagmean variable for each individual and activity 
+
 
 #### AVG timeBodyAccJerkMagstd
-  -
+  - These are the averages for the timeBodyAccJerkMagstd variable for each individual and activity 
+
 
 #### AVG timeBodyGyroMagmean
-  -
+  - These are the averages for the timeBodyGyroMagmean variable for each individual and activity 
+
 
 #### AVG timeBodyGyroMagstd
-  -
+  - These are the averages for the timeBodyGyroMagstd variable for each individual and activity 
+
 
 #### AVG timeBodyGyroJerkMagmean
-  -
+  - These are the averages for the timeBodyGyroJerkMagmean variable for each individual and activity 
+
 
 #### AVG timeBodyGyroJerkMagstd
-  -
+  - These are the averages for the timeBodyGyroJerkMagstd variable for each individual and activity 
+
 
 #### AVG freqBodyAccmeanX
-  -
+  - These are the averages for the freqBodyAccmeanX variable for each individual and activity 
+
 
 #### AVG freqBodyAccmeanY
-  -
+  - These are the averages for the freqBodyAccmeanY variable for each individual and activity 
+
 
 #### AVG freqBodyAccmeanZ
-  -
+  - These are the averages for the freqBodyAccmeanZ variable for each individual and activity 
+
 
 #### AVG freqBodyAccstdX
-  -
+  - These are the averages for the freqBodyAccstdX variable for each individual and activity 
+
 
 #### AVG freqBodyAccstdY
-  -
+  - These are the averages for the freqBodyAccstdY variable for each individual and activity 
+
 
 #### AVG freqBodyAccstdZ
-  -
+  - These are the averages for the freqBodyAccstdZ variable for each individual and activity 
+
 
 #### AVG freqBodyAccmeanFreqX
-  -
+  - These are the averages for the freqBodyAccmeanFreqX variable for each individual and activity 
+
 
 #### AVG freqBodyAccmeanFreqY
-  -
+  - These are the averages for the freqBodyAccmeanFreqY variable for each individual and activity 
+
 
 #### AVG freqBodyAccmeanFreqZ
-  -
+  - These are the averages for the freqBodyAccmeanFreqZ variable for each individual and activity 
+
 
 #### AVG freqBodyAccJerkmeanX
-  -
+  - These are the averages for the freqBodyAccJerkmeanX variable for each individual and activity 
+
 
 #### AVG freqBodyAccJerkmeanY
-  -
+  - These are the averages for the freqBodyAccJerkmeanY variable for each individual and activity 
+
 
 #### AVG freqBodyAccJerkmeanZ
-  -
+  - These are the averages for the freqBodyAccJerkmeanZ variable for each individual and activity 
+
 
 #### AVG freqBodyAccJerkstdX
-  -
+  - These are the averages for the freqBodyAccJerkstdX variable for each individual and activity 
+
 
 #### AVG freqBodyAccJerkstdY
-  -
+  - These are the averages for the freqBodyAccJerkstdY variable for each individual and activity 
+
 
 #### AVG freqBodyAccJerkstdZ
-  -
+  - These are the averages for the freqBodyAccJerkstdZ variable for each individual and activity 
+
 
 #### AVG freqBodyAccJerkmeanFreqX
-  -
+  - These are the averages for the freqBodyAccJerkmeanFreqX variable for each individual and activity 
+
 
 #### AVG freqBodyAccJerkmeanFreqY
-  -
+  - These are the averages for the freqBodyAccJerkmeanFreqY variable for each individual and activity 
+
 
 #### AVG freqBodyAccJerkmeanFreqZ
-  -
+  - These are the averages for the freqBodyAccJerkmeanFreqZ variable for each individual and activity 
+
 
 #### AVG freqBodyGyromeanX
-  -
+  - These are the averages for the freqBodyGyromeanX variable for each individual and activity 
+
 
 #### AVG freqBodyGyromeanY
-  -
+  - These are the averages for the freqBodyGyromeanY variable for each individual and activity 
+
 
 #### AVG freqBodyGyromeanZ
-  -
+  - These are the averages for the freqBodyGyromeanZ variable for each individual and activity 
+
 
 #### AVG freqBodyGyrostdX
-  -
+  - These are the averages for the freqBodyGyrostdX variable for each individual and activity 
+
 
 #### AVG freqBodyGyrostdY
-  -
+  - These are the averages for the freqBodyGyrostdY variable for each individual and activity 
+
 
 #### AVG freqBodyGyrostdZ
-  -
+  - These are the averages for the freqBodyGyrostdZ variable for each individual and activity 
+
 
 #### AVG freqBodyGyromeanFreqX
-  -
+  - These are the averages for the freqBodyGyromeanFreqX variable for each individual and activity 
+
 
 #### AVG freqBodyGyromeanFreqY
-  -
+  - These are the averages for the freqBodyGyromeanFreqY variable for each individual and activity 
+
 
 #### AVG freqBodyGyromeanFreqZ
-  -
+  - These are the averages for the freqBodyGyromeanFreqZ variable for each individual and activity 
+
 
 #### AVG freqBodyAccMagmean
-  -
+  - These are the averages for the freqBodyAccMagmean variable for each individual and activity 
+
 
 #### AVG freqBodyAccMagstd
-  -
+  - These are the averages for the freqBodyAccMagstd variable for each individual and activity 
+
 
 #### AVG freqBodyAccMagmeanFreq
-  -
+  - These are the averages for freqBodyAccMagmeanFreq variable for each individual and activity 
+
 
 #### AVG freqBodyBodyAccJerkMagmean
-  -
+  - These are the averages for the freqBodyBodyAccJerkMagmean variable for each individual and activity 
+
 
 #### AVG freqBodyBodyAccJerkMagstd
-  -
+  - These are the averages for the mean acceleration in the X direction for each individual and activity 
+
 
 #### AVG freqBodyBodyAccJerkMagmeanFreq
-  -
+  - These are the averages for the freqBodyBodyAccJerkMagmeanFreq for each individual and activity 
+
 
 #### AVG freqBodyBodyGyroMagmean
-  -
+  - These are the averages for the freqBodyBodyGyroMagmean for each individual and activity 
+
 
 #### AVG freqBodyBodyGyroMagstd
-  -
+  - These are the averages for the freqBodyBodyGyroMagstd variable for each individual and activity 
+
 
 #### AVG freqBodyBodyGyroMagmeanFreq
-  -
+  - These are the averages for the  freqBodyBodyGyroMagmeanFreq variable for each individual and activity 
+
 
 #### AVG freqBodyBodyGyroJerkMagmean
-  -
+  - These are the averages for the freqBodyBodyGyroJerkMagmean for each individual and activity 
+
 
 #### AVG freqBodyBodyGyroJerkMagstd
-  -
+  - These are the averages for the freqBodyBodyGyroJerkMagstd for each individual and activity 
+
 
 #### AVG freqBodyBodyGyroJerkMagmeanFreq
-  -
+  - These are the averages for the freqBodyBodyGyroJerkMagmeanFreq variable for each individual and activity 
+
 
 #### AVG angletimeBodyAccMeangravity
-  -
+  - These are the averages for the angletimeBodyAccMeangravity variable for each individual and activity 
+
 
 #### AVG angletimeBodyAccJerkMeangravityMean
-  -
+  - These are the averages for the angletimeBodyAccJerkMeangravityMean for each individual and activity 
+
 
 #### AVG angletimeBodyGyroMeangravityMean
-  -
+  - These are the averages for the angletimeBodyGyroMeangravityMean variable for each individual and activity 
+
 
 #### AVG angletimeBodyGyroJerkMeangravityMean
-  -
+  - These are the averages for the angletimeBodyGyroJerkMeangravityMean variable  for each individual and activity 
+
 
 #### AVG angleXgravityMean
-  -
+  - These are the averages for the mean angle/gravity in the X direction for each individual and activity 
+
 
 #### AVG angleYgravityMean
-  -
+  - These are the averages for the mean angle/gravity in the Y direction for each individual and activity 
+
 
 #### AVG angleZgravityMean
-  -
+  - These are the averages for the mean angle/gravity in the X direction for each individual and activity 
